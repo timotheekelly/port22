@@ -1,0 +1,26 @@
+.project-main {
+    background-color: red;
+    cursor: pointer;
+    aspect-ratio: 3 / 2;
+}
+
+.project-content {
+    opacity: 0;
+    transition: 0.15s;
+    background-color: rgba(0, 0, 0, 0.404);
+    top: 0;
+    height: 100%;
+}
+
+.project-main:hover .project-content{
+    opacity: 1;
+}
+
+
+.title {
+    font-size: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(235, 235, 235);
+}

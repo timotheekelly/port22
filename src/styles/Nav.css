@@ -1,0 +1,29 @@
+.nav {
+    width: 100%;
+    height: 15vh;
+}
+
+.nav-left {
+    float: left;
+    padding: 5vh 5% 0;
+}
+
+.nav-right {
+    float: right;
+    padding: 5vh 5% 0;
+    font-size: 1.5rem;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.right {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+
+.active {
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.924);
+}

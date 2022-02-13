@@ -2,12 +2,12 @@ import React from 'react';
 import Project from '../components/Project';
 
 import '../styles/Work.css';
-import aiImage from '../img/ai.jpg';
-import blockImg from '../img/block.jpg';
-import pinImg from '../img/pin.jpg';
-import cryptoImg from '../img/crypto.jpg';
-import ramenImg from '../img/ramen.jpg';
-import retroImg from '../img/retro.jpg';
+import aiImage from '/ai.jpg';
+import blockImg from '/block.jpg';
+import pinImg from '/pin.jpg';
+import cryptoImg from '/crypto.jpg';
+import ramenImg from '/ramen.jpg';
+import retroImg from '/retro.jpg';
 
 const Work = () => {
   return (

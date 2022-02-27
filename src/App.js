@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import { Routes, Route } from 'react-router-dom';
 // import Nav from './components/Nav';
 // import Work from './pages/Work';
@@ -6,8 +6,16 @@ import React from "react";
 // import Contact from './pages/Contact';
 
 import './styles/App.css';
+import ReactGA from 'react-ga';
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.initialize('G-96EQ2MWX4Y')
+
+    ReactGA.pageview('/')
+  }, [])
+
   return (
     <div className="main">
       <div className="title">

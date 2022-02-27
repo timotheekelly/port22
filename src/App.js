@@ -10,14 +10,17 @@ import './styles/App.css';
 function App() {
   return (
     <div className="main">
-      <Nav />
+      <div className="title">
+        <h1>Coming soon <span className="blinking">_</span></h1>
+      </div>
+      {/* <Nav />
       <div className="routes">
         <Routes>
           <Route path="/*" element={<Work />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
+      </div> */}
     </div>
   );
 }
